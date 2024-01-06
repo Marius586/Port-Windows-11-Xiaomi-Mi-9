@@ -19,19 +19,20 @@
 fastboot boot <recovery.img>
 ```
 
-#### Execute the msc script
-
-> If it asks you to run it once again, do so
-
-```cmd
-adb shell msc
-```
+#### Enter to mass storage mode
+1. Flash and boot UEFI
+2. Select
+   ```
+   Enter Simple init
+   ```
+3. Select Mass storage
+   
 ### Assign letters to disks
   
 
 #### Start the Windows disk manager
 
-> Once the Xiaomi Pad 5 is detected as a disk
+> Once the Xiaomi Mi 9 is detected as a disk
 
 ```cmd
 diskpart
@@ -40,8 +41,8 @@ diskpart
 
 #### Assign `X` to Windows volume
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named "WINNABU"
+#### Select the Windows volume of the phone
+> Use `list volume` to find it, it's the one named "WINCEPHEUS"
 
 ```diskpart
 select volume <number>
@@ -55,7 +56,7 @@ assign letter=x
 ### Assign `Y` to ESP volume
 
 #### Select the esp volume of the tablet
-> Use `list volume` to find it, it's the one named "ESPNABU"
+> Use `list volume` to find it, it's the one named "ESPCEPHEUS"
 
 ```diskpart
 select volume <number>
