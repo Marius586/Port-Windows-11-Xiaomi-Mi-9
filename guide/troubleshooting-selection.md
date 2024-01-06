@@ -4,13 +4,7 @@
 
 ## Troubleshooting Issues
 
-### Select your language
+### Select your language - Выберите свой язык
 
 - [English](English/troubleshooting-en.md)
-- [Turkish](Turkish/troubleshooting-tr.md)
-- [Russian](Russian/troubleshooting-ru.md)
-- [Italian](Italian/risoluzione-problemi-it.md)
-- [Español](Español/troubleshooting-es.md)
-- [Ukrainian](Ukrainian/troubleshooting-uk.md)
-- [Vietnamese](Vietnamese/troubleshooting-vi.md)
-- [Traditional Chinese](Traditional%20Chinese/troubleshooting-tw.md)
+- [Русский](Russian/troubleshooting-ru.md)
