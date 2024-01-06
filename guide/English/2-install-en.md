@@ -1,14 +1,13 @@
 <img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Running Windows on the Xiaomi Mi 9
 
 ## Installation
 
 ## Installing Windows
 
 ### Prerequisites
-- Brain
 - [Windows on ARM image](https://uupdump.net/)
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
