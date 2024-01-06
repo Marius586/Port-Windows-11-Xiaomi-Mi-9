@@ -53,7 +53,7 @@ adb shell partition
 ```
 
 #### Check if Android still starts
-just restart the tablet, and see if Android still works
+just restart the phone, and see if Android still works
 If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
 
 
