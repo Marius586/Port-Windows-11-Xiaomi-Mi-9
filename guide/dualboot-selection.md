@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/dualboot-en.md)
-- [Russian](Russian/dualboot-ru.md)
+- [Русский](Russian/dualboot-ru.md)
