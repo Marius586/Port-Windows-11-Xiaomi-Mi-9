@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/status.md)
-- [Russian](Russian/status-ru.md)
+- [Русский](Russian/status-ru.md)
