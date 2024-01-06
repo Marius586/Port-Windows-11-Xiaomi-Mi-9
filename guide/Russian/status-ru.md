@@ -1,6 +1,6 @@
 ﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Windows на Xiaomi Pad 5
+# Windows на Xiaomi Mi 9
 
 ## Статус проекта
 
@@ -12,19 +12,16 @@
 - [X] Статус батареи
 - [X] Bluetooth
 - [X] Яркость
-- [X] Зарядка
+- [ ] Зарядка (Работает только медленная зарядка)
 - [X] Дисплей
 - [X] Режим ожидания
 - [X] Видеочип
-- [X] Сенсорный экран
+- [ ] Сенсорный экран (Нестабильный драйвер)
 - [X] Файловая система
-- [X] USB
+- [ ] USB (Частично)
 - [X] Wi-Fi
-- [X] Cтилус Xiaomi
-- [X] Местоположение
+- [ ] Местоположение
 - [X] Фонарик
-- [ ] Зарядка стилуса Xiaomi
-- [ ] Чехол-клавиатура Xiaomi (Только в 21H2 и специальным образом UEFI)
 - [ ] Камера
 - [X] Микрофон
 
