@@ -7,8 +7,6 @@
 
 ### Prerequisites
 
-- Brain
-
 - Rooted Android and rooted Android boot backup
 
 ### Windows side of Dual Boot
