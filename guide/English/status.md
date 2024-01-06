@@ -8,15 +8,15 @@ Stable. Most of the hardware works, but some components do not work yet.
 
 #### Features
 
-- [X] Suspend / Sleep Mode
-- [X] Audio
-- [X] Battery status
-- [X] Bluetooth
-- [X] Brightness
-- [x] Charging
+- [ ] Suspend / Sleep Mode
+- [ ] Audio
+- [ ] Battery status
+- [ ] Bluetooth
+- [ ] Brightness
+- [ ] Charging
 - [X] Display
 - [X] GPU
-- [X] Touchscreen
+- [-] Touchscreen
 - [X] UFS
 - [X] USB
 - [X] Wi-Fi
