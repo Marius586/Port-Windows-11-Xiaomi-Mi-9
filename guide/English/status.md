@@ -4,33 +4,28 @@
 
 ## Project Status
 
-Stable. Most of the hardware works, but some components do not work yet.
+Unstable, but the essentials work.
 
 #### Features
 
-- [ ] Suspend / Sleep Mode
-- [ ] Audio
-- [ ] Battery status
-- [ ] Bluetooth
-- [ ] Brightness
-- [ ] Charging
-- [X] Display
-- [X] GPU
-- [X] Touchscreen
-- [X] UFS
-- [ ] USB
-- [ ] Wi-Fi
-- [ ] Microphone
-- [ ] Miracast
-- [ ] Location
-- [ ] FlashLight
+- [x] Wi-Fi
+- [ ] Cellular Data 
+- [ ] NFC 
+- [x] Bluetooth
+- [x] GPU
+- [x] UFS
+- [x] Battery & Status
+- [x] Buttons (including AI button)
 - [ ] Camera
+- [x] Location
+- [x] USB
+- [x] Audio
+- [x] Microphone
+- [x] TouchScreen (Partial)
+- [x] Charge (No Fast Charge)
+
+#### Other
+
 - [ ] Vibration
-
-#### Sensors
-
-- [ ] Accelerometer
-- [ ] Gyroscope
-- [ ] Magnetometer
-- [ ] Proximity
-- [ ] Light sensor
+- [ ] Fingerprint
+- [ ] Sensors (Not correctly work)
