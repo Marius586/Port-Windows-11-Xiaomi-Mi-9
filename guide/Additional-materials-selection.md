@@ -2,14 +2,7 @@
 
 ## Useful apps and instructions
 
-### Select your language
+### Select your language - Выберите свой язык
 
 - [English](Additional-materials/Additional-materials-EN.md)
-- [Turkish](Additional-materials/Additional-materials-TR.md)
-- [Russian](Additional-materials/Additional-materials-RU.md)
-- [Italian](Additional-materials/Additional-materials-it.md)
-- [Español](Additional-materials/Additional-materials-es.md)
-- [Ukrainian](Additional-materials/Additional-materials-uk.md)
-- [Vietnamese](Additional-materials/Additional-materials-vi.md)
-- [Traditional Chinese](Additional-materials/Additional-materials-cn.md)
-
+- [Русский](Additional-materials/Additional-materials-RU.md)
