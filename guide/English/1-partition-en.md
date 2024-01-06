@@ -9,7 +9,9 @@
 
 ### Prerequisites
 - Brain
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Recovery Image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img)
+
+- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/boot-cepheus.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
