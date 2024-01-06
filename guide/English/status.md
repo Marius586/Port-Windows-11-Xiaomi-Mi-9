@@ -16,23 +16,21 @@ Stable. Most of the hardware works, but some components do not work yet.
 - [ ] Charging
 - [X] Display
 - [X] GPU
-- [-] Touchscreen
+- [X] Touchscreen
 - [X] UFS
-- [X] USB
-- [X] Wi-Fi
-- [X] Xiaomi Pen support
-- [X] Microphone
-- [X] Miracast
-- [X] Location
-- [X] FlashLight
-- [ ] Xiaomi Pen charging support
-- [ ] Xiaomi Keyboard support
+- [ ] USB
+- [ ] Wi-Fi
+- [ ] Microphone
+- [ ] Miracast
+- [ ] Location
+- [ ] FlashLight
 - [ ] Camera
+- [ ] Vibration
 
 #### Sensors
 
-- [X] Accelerometer
-- [X] Gyroscope
-- [X] Magnetometer
-- [X] Proximity
-- [X] Light sensor
+- [ ] Accelerometer
+- [ ] Gyroscope
+- [ ] Magnetometer
+- [ ] Proximity
+- [ ] Light sensor
