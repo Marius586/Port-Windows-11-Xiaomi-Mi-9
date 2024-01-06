@@ -4,13 +4,7 @@
 
 ## Uninstallation
 
-### Select your language
+### Select your language - Выберите свой язык
 
 - [English](English/restore-stock-en.md)
-- [Turkish](Turkish/uninstall-tr.md)
 - [Russian](Russian/uninstall-ru.md)
-- [Italian](Italian/ripristino-android-stock-it.md)
-- [Español](Español/Desinstalar-es.md)
-- [Ukrainian](Ukrainian/uninstall-uk.md)
-- [Vietnamese](Vietnamese/restore-stock-vi.md)
-- [Traditional Chinese](Traditional%20Chinese/restore-stock-tw.md)
