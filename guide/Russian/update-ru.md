@@ -1,7 +1,7 @@
 ﻿<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png">
 
 
-# Windows на Xiaomi Pad 5
+# Windows на Xiaomi Mi 9
 
 ## Обновление драйверов
 
