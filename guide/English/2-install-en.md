@@ -12,10 +12,22 @@
 - [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
 - [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-### Boot recovery back to start installing Windows
+### Make a backup of your existing boot image
 
 ```cmd
-fastboot boot <recovery.img>
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+```
+
+### Pull backup to computer
+
+```cmd
+adb pull /tmp/boot.img
+```
+
+### Boot UEFI to start installing Windows
+
+```cmd
+fastboot boot <uefi.img>
 ```
 
 #### Enter to mass storage mode
@@ -71,10 +83,7 @@ assign letter=y
 ```diskpart
 exit
 ```
-
-  
-  
-
+
 ### Install
 
 > Replace `<path/to/install.wim>` with the actual install.wim path,
@@ -101,39 +110,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-
-
-
-## Boot into Windows
-
-### Make a backup of your existing boot image
-
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-### Pull backup to computer
-
-```cmd
-adb pull /tmp/boot.img
-```
-
-
-
-### Reboot to bootloader 
-
-```cmd
-adb reboot bootloader
-```
-
-### Download and flash UEFI image
-> Download [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
-
-```cmd
-fastboot flash boot <path to image>
-```
-
+
 ### Boot back into Android
 > Use your backup boot image and flash from fastboot
 
