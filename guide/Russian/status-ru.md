@@ -1,10 +1,10 @@
-﻿<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+﻿<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-# Windows на Xiaomi Mi 9
+# Запуск Windows на Xiaomi Mi 9
 
 ## Статус проекта
 
-Стабильный. Некоторые компоненты ещё не функционируют.
+Нестабильно, но самое основное работает
 
 #### Основное
 
