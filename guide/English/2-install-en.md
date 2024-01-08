@@ -98,7 +98,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Install Drivers
 
-> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> You can download Drivers [here](https://github.com/woacepheus/XiaoMi9-Drivers)
 
 > When it ask you "Enter Drive letter..." type X:
 
