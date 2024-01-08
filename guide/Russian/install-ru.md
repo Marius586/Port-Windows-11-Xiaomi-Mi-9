@@ -1,80 +1,95 @@
-﻿﻿<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425">
+<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 
-# Windows на Xiaomi Mi 9
+# Запуск Windows 11 на Xiaomi Mi 9
 
-## Установка
+## Установка 
 
-### Требования
+## Установка Windows
 
-- [ARM образ Windows](https://uupdump.net/)
-- [Образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
-- [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+### Необходимое
+- [ARM-образ Windows](https://uupdump.net/)
+- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
+- [Драйвера](https://github.com/woacepheus/XiaoMi9-Drivers)
+- Root-права (для бекапа boot.img) или рекавери
 
-### Перезапустите рекавери чтобы начать установку Windows
-
-```cmd
-fastboot boot <recovery.img>
-```
-
-#### Выполните скрипт msc
+### Сделайте бекап boot.img
 
 ```cmd
-adb shell msc
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
 ```
 
-### Привязка букв к разделам
+### Сохраните бекап на компьютер
+
+```cmd
+adb pull /tmp/boot.img
+```
+
+### Запустите UEFI для начала установки Windows
+
+```cmd
+fastboot boot <uefi.img>
+```
+
+#### Перейдите в mass storage mode
+1. Прошейте и запустите UEFI
+2. Выберите пункт
+   `Enter Simple init`
+3. Выберите Mass storage
+   
+### Дайте букву диску
   
 
-#### Запустите Менеджер дисков Windows
+#### Запустите diskpart
 
-> Как только планшет определился как диск
+> Как только ваш смартфон определится как диск
 
 ```cmd
 diskpart
 ```
 
 
-#### Привязка буквы  `X` к разделу Windows
+#### Дайте букву `X` разделу для Windows
 
-#### Выберите Windows раздел планшета
-> Используйте команду `list volume` чтобы найти разделы "WINNABU" и "ESPNABU"
+#### Выберите раздел для Windows
+> Используйте `list volume` чтобы найти его, это будет "WINCEPHEUS"
 
 ```diskpart
 select volume <number>
 ```
 
-#### Привяжите букву X
+#### Выделение буквы X
 ```diskpart
 assign letter=x
 ```
 
-### Привязка буквы  `Y`  к разделу ESP
+### Дайте букву `Y` разделу ESP
 
-#### Выберите ESP раздел планшета
-> Используйте команду `list volume` чтобы найти его, обычно это последний раздел
+#### Выберите ESP раздел
+> Используйте `list volume` чтобы найти его, это будет "ESPCEPHEUS"
 
 ```diskpart
 select volume <number>
 ```
 
-#### Привяжите букву Y
+#### Выделение буквы Y
 
 ```diskpart
 assign letter=y
 ```
 
-#### Закройте diskpart
+#### Выйдите с  diskpart
 ```diskpart
 exit
 ```
 
-  
-  
 
-### Установка Windows
 
-> Замените `<path/to/install.wim>` действительным путём к файлу `install.wim`, который расположен в папке `sources` внутри вашего ISO. Вы можете получить его, смонтировав образ или разархивировав его
+### Установка
+> Замените `<path/to/install.wim>` на свой путь до install.wim,
+
+> `install.wim` находится в ISO, в папке sources.
+> Вы можете достать install.wim монтируя ISO на своем компьюетере
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -82,55 +97,28 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Установка драйверов
 
-> Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> Драйвера нужно скачать [тут](https://github.com/woacepheus/XiaoMi9-Drivers)
+
+> Когда появится надпись "Enter Drive letter..." напишите X:
 
 ```cmd
- Откройте папку с драйверами и заустите OfflineUpdater.cmd
+ Откройте папку с драйверами и запустите файл OfflineUpdater.cmd
 ```
 
-### Создайте файлы загрузчика Windows для EFI
+### Создание загрузчика для этого EFI
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-## Запуск Windows
 
-### Создайте резервную копию текущего ядра Android
 
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
-```
-
-### Скопируйте РК на компьютер
-
-```cmd
-adb pull /tmp/boot.img
-```
-### Перезапустите планшет в fastboot
-
-```cmd
-adb reboot bootloader
-```
-
-### Скачайте и прошейте образ UEFI 
-> Скачайте [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
-```cmd
-fastboot flash boot <путь к образу UEFI>
-```
-
-### Загрузка в Android
-> Прошейте скопированное ранее ядро в fastboot
+### Загрузитесь назад в Android
+> Прошейте boot.img, который вы забекапили в начале
 
 ```cmd
 fastboot flash boot boot.img
 ```
-### Удаление фантомных букв (если не исчезли сами)
-> Выполните эти команды от админа, чтобы удалить фантомные буквы
-```cmd
-mountvol x: /d
-mountvol y: /d
-```
 ## Готово!
 
-### [Последний шаг: Настройка двойной загрузки](dualboot-ru.md)
+### [Последний шаг: двойная загрузка](dualboot-ru.md)
