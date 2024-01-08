@@ -65,7 +65,7 @@ assign letter=x
 
 ### Assign `Y` to ESP volume
 
-#### Select the esp volume of the tablet
+#### Select the esp volume of the phone
 > Use `list volume` to find it, it's the one named "ESPCEPHEUS"
 
 ```diskpart
