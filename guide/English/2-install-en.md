@@ -9,8 +9,9 @@
 
 ### Prerequisites
 - [Windows on ARM image](https://uupdump.net/)
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
-- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [UEFI image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
+- [Drivers](https://github.com/woacepheus/XiaoMi9-Drivers)
+- Root (for backup boot image) or Recovery
 
 ### Make a backup of your existing boot image
 
@@ -33,9 +34,7 @@ fastboot boot <uefi.img>
 #### Enter to mass storage mode
 1. Flash and boot UEFI
 2. Select
-   ```
-   Enter Simple init
-   ```
+   `Enter Simple init`
 3. Select Mass storage
    
 ### Assign letters to disks
@@ -83,7 +82,9 @@ assign letter=y
 ```diskpart
 exit
 ```
-
+
+
+
 ### Install
 
 > Replace `<path/to/install.wim>` with the actual install.wim path,
@@ -110,7 +111,9 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
+
+
+
 ### Boot back into Android
 > Use your backup boot image and flash from fastboot
 
