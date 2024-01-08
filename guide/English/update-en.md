@@ -8,11 +8,9 @@
 ### Prerequisites
 
 
-- [UEFI image](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
-
-- [Recovery](../../../../releases/tag/1.0)
-
-- [Drivers](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [Windows on ARM image](https://uupdump.net/)
+- [UEFI image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
+- [Drivers](https://github.com/woacepheus/XiaoMi9-Drivers)
 
 #### Start recovery through the PC with the command
 
@@ -21,17 +19,17 @@ fastboot boot <recovery.img>
 ```
 
 
-#### Execute script
-
-```cmd
-adb shell msc
-```
+#### Enter to mass storage mode
+1. Flash and boot UEFI
+2. Select
+   `Enter Simple init`
+3. Select Mass storage
 
 ### Assign letters to disks
 
 #### Start the Windows disk manager
 
-> Once the Pad 5 is detected as a disk
+> Once the Mi 9 is detected as a disk
 
 ```cmd
 diskpart
@@ -40,8 +38,8 @@ diskpart
 
 ### Assign `X` to Windows volume
 
-#### Select the Windows volume of the tablet
-> Use `list volume` to find it, it's the one named "WINNABU"
+#### Select the Windows volume of the phone
+> Use `list volume` to find it, it's the one named "WINCEPHEUS"
 
 ```diskpart
 select volume <number>
@@ -60,10 +58,10 @@ exit
 
 ### Install Drivers
 
-> You can download Drivers [here](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+> You can download Drivers [here](https://github.com/woacepheus/XiaoMi9-Drivers)
 
 ```cmd
- Open folder with Drivers and run OfflineUpdater.cmd
+ DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.txt" -r "<path to extracted drivers>" -p <The window drive letter of your phone>:\
 ```
 
 
