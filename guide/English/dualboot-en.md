@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 
 # Running Windows on the Xiaomi Mi 9
@@ -6,30 +6,43 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
+- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [Modified TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/recovery-cepheus.img)
+- [NTFS Android Magisk Module](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/download/ntfsdroid/ntfs3g.zip)
+- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
+- [WOA Helper](https://github.com/woacepheus/WoA-Helper/releases/download/1.0/app-debug.apk)
 
-- Rooted Android and rooted Android boot backup
+### Phone Setup
 
-### Windows side of Dual Boot
+#### Adding NTFS Support to android
+- Install Magisk if you haven't already
+- Install the NTFS Android magisk module through the Magisk manager
 
-- Install [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+#### Application Setup
+> [!NOTE]
+>
+> In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android using the backup you made earlier.
+- Download the StA Installer and the APK, then install the APK
+- Create a folder named "UEFI" on your internal storage
+- Copy the uefi image into the UEFI folder
+- Open the app and allow any root access it wants
+- Press the "BACKUP ANDROID BOOT" button, then dismiss the popup
+- Press the "Mount/Unmount Windows button, then dismiss the popup
+- Go to your file explorer and Windows should be mounted in sdcard/Windows (your internal storage). Move the StA Installer and boot.img backup into this folder
+- Return to the WOA helper app and press "Quickboot to Windows"
+- After Windows boots, run the StA installer in the C:\ directory
+> You may need to disable any antivirus software present, if the installer does not work
 
-- Rename your Android boot file to boot.img
-
-- Place your Android boot to C:\ (C:\boot.img)
-
-- Open shortcut on your desktop to switch to Android
-
-### Android side of Dual Boot
-
-- Install [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) to device.
+#### Booting to Android
   
-- Create folder Windows in Android storage
+  - Run the new shortcut on your desktop as **ADMINISTRATOR**
 
-- Rename your UEFI file to boot.img
+#### Booting to Windows
+  
+  - Run the app
+  - Press "Quickboot to Windows"
 
-- Place your UEFI file to created folder (/Android storage/Windows/boot.img)
-
-- Start app and give root privileges.
-
-- Click "Switch to Windows" if you want to switch Windows.
-
+> If quickboot does not work, you may have shut down Windows incorrectly. If this happens, use the "Flash UEFI" button and manually reboot your phone.
+  
+## Finished!
