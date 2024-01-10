@@ -21,8 +21,8 @@ Unstable, but the essentials work.
 - [x] USB
 - [x] Audio
 - [x] Microphone
-- [x] TouchScreen (Partial)
-- [x] Charge (No Fast Charge, on hiprivsid's mi 9 charge not working, xd)
+- [x] Touchscreen
+- [ ] Charge (didn't working at all)
 
 #### Other
 
