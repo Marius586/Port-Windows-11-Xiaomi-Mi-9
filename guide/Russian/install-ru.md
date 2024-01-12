@@ -95,6 +95,12 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
+### Создание загрузчика для этого EFI
+
+```cmd
+bcdboot X:\Windows /s Y: /f UEFI
+```
+
 ### Установка драйверов
 
 > Драйвера нужно скачать [тут](https://github.com/woacepheus/XiaoMi9-Drivers)
@@ -111,13 +117,6 @@ bcdedit /store BCD /set "{default}" testsigning on
 bcdedit /store BCD /set "{default}" nointegritychecks on
 bcdedit /store BCD /set "{default}" recoveryenabled no
 ```
-### Создание загрузчика для этого EFI
-
-```cmd
-bcdboot X:\Windows /s Y: /f UEFI
-```
-
-
 
 ### Загрузитесь назад в Android
 > Прошейте boot.img, который вы забекапили в начале
