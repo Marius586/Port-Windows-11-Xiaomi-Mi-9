@@ -31,6 +31,8 @@
 > Do not run all commands at once, execute them in order!
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!
+>
+> SCRIPTS WORKS ONLY ON 128 GB VERSION
 
 
 #### Boot recovery through the PC with the command
