@@ -96,6 +96,12 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
+### Create Windows bootloader files for the EFI
+
+```cmd
+bcdboot X:\Windows /s Y: /f UEFI
+```
+
 ### Install Drivers
 
 > You can download Drivers [here](https://github.com/woacepheus/XiaoMi9-Drivers)
@@ -112,13 +118,6 @@ bcdedit /store BCD /set "{default}" testsigning on
 bcdedit /store BCD /set "{default}" nointegritychecks on
 bcdedit /store BCD /set "{default}" recoveryenabled no
 ```
-
-### Create Windows bootloader files for the EFI
-
-```cmd
-bcdboot X:\Windows /s Y: /f UEFI
-```
-
 
 
 ### Boot back into Android
