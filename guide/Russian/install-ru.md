@@ -99,12 +99,18 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > Драйвера нужно скачать [тут](https://github.com/woacepheus/XiaoMi9-Drivers)
 
-> Когда появится надпись "Enter Drive letter..." напишите X:
+> Когда драйвера скачаються, то заходим в папку tools и открываем cmd там
 
 ```cmd
- Откройте папку с драйверами и запустите файл OfflineUpdater.cmd
+ DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.txt" -r "<path to extracted drivers>" -p <The window drive letter of your phone>:\
 ```
-
+> Включаем тестовый режим
+```
+cd <ESP partition>:\EFI\Microsoft\Boot
+bcdedit /store BCD /set "{default}" testsigning on
+bcdedit /store BCD /set "{default}" nointegritychecks on
+bcdedit /store BCD /set "{default}" recoveryenabled no
+```
 ### Создание загрузчика для этого EFI
 
 ```cmd
