@@ -10,6 +10,7 @@
 ### Prerequisites
 - [Windows on ARM image](https://uupdump.net/)
 - [UEFI image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
+- [Renegade UEFI](https://github.com/edk2-porting/edk2-msm/releases/download/2301.1/boot-cepheus.img)
 - [Drivers](https://github.com/woacepheus/XiaoMi9-Drivers)
 - Root (for backup boot image) or Recovery
 
@@ -25,7 +26,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Boot UEFI to start installing Windows
+### Boot Renegade UEFI to start installing Windows
 
 ```cmd
 fastboot boot <uefi.img>
