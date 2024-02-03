@@ -9,7 +9,8 @@
 
 ### Необходимое
 - [ARM-образ Windows](https://uupdump.net/)
-- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
+- [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases/)
+- [Renegade UEFI](https://github.com/edk2-porting/edk2-msm/releases/download/2301.1/boot-cepheus.img)
 - [Драйвера](https://github.com/woacepheus/XiaoMi9-Drivers)
 - Root-права (для бекапа boot.img) или рекавери
 
@@ -25,7 +26,7 @@ adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.
 adb pull /tmp/boot.img
 ```
 
-### Запустите UEFI для начала установки Windows
+### Запустите UEFI от Renegade для начала установки Windows
 
 ```cmd
 fastboot boot <uefi.img>
