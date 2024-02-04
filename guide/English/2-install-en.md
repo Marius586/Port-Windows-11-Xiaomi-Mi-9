@@ -9,35 +9,19 @@
 
 ### Prerequisites
 - [Windows on ARM image](https://uupdump.net/)
-- [UEFI image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
-- [Renegade UEFI](https://github.com/edk2-porting/edk2-msm/releases/download/2301.1/boot-cepheus.img)
+- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Drivers](https://github.com/woacepheus/XiaoMi9-Drivers)
 - Root (for backup boot image) or Recovery
 
-### Make a backup of your existing boot image
-
+### Boot recovery back to start installing Windows
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+fastboot boot <recovery.img>
 ```
-
-### Pull backup to computer
-
+#### Execute the msc script
+> If it asks you to run it once again, do so
 ```cmd
-adb pull /tmp/boot.img
+adb shell msc
 ```
-
-### Boot Renegade UEFI to start installing Windows
-
-```cmd
-fastboot boot <uefi.img>
-```
-
-#### Enter to mass storage mode
-1. Flash and boot UEFI
-2. Select
-   `Enter Simple init`
-3. Select Mass storage
-   
 ### Assign letters to disks
   
 
@@ -127,6 +111,19 @@ bcdedit /store BCD /set "{default}" recoveryenabled no
 ```cmd
 fastboot flash boot boot.img
 ```
+
+### Make a backup of your existing boot image
+
+```cmd
+adb shell "dd if=/dev/block/by-name/boot of=/tmp/boot.img"
+```
+
+### Pull backup to computer
+
+```cmd
+adb pull /tmp/boot.img
+```
+
 ### Remove phantom drive letters (if they are not removed automatically)
 > Run theese commands as admin to remove letter
 ```cmd

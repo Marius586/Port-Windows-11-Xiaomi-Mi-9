@@ -10,34 +10,23 @@
 ### Необходимое
 - [ARM-образ Windows](https://uupdump.net/)
 - [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases/)
-- [Renegade UEFI](https://github.com/edk2-porting/edk2-msm/releases/download/2301.1/boot-cepheus.img)
 - [Драйвера](https://github.com/woacepheus/XiaoMi9-Drivers)
 - Root-права (для бекапа boot.img) или рекавери
 
-### Сделайте бекап boot.img
+
+
+### Перезапустите рекавери чтобы начать установку Windows
 
 ```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/boot.img"
+fastboot boot <recovery.img>
 ```
 
-### Сохраните бекап на компьютер
+#### Выполните скрипт msc
 
 ```cmd
-adb pull /tmp/boot.img
+adb shell msc
 ```
 
-### Запустите UEFI от Renegade для начала установки Windows
-
-```cmd
-fastboot boot <uefi.img>
-```
-
-#### Перейдите в mass storage mode
-1. Прошейте и запустите UEFI
-2. Выберите пункт
-   `Enter Simple init`
-3. Выберите Mass storage
-   
 ### Дайте букву диску
   
 
@@ -126,5 +115,17 @@ bcdedit /store BCD /set "{default}" recoveryenabled no
 fastboot flash boot boot.img
 ```
 ## Готово!
+
+### Сделайте бекап boot.img
+
+```cmd
+adb shell "dd if=/dev/block/by-name/boot of=/tmp/boot.img
+```
+
+### Сохраните бекап на компьютер
+
+```cmd
+adb pull /tmp/boot.img
+```
 
 ### [Последний шаг: двойная загрузка](dualboot-ru.md)
