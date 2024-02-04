@@ -49,6 +49,8 @@ fastboot boot <recovery.img>
 
 > Make sure you do not add GB at the end, just the number
 
+> DO NOT TRY ON 12/256 MODEL AKA MI 9 EXPLORER EDITION
+
 ```cmd
 adb shell partition
 ```
