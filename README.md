@@ -17,7 +17,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation](guide/install-selection.md)
 
-- [Uninstallation](guide/uninstall-selection.md)
+- ~~[Uninstallation](guide/uninstall-selection.md)~~
 
 
 ## Miscellaneous
@@ -26,11 +26,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Troubleshooting](guide/troubleshooting-selection.md)
+- ~~[Troubleshooting](guide/troubleshooting-selection.md)~~
 
-- [Updating Drivers](guide/driver-updating-selection.md)
+- ~~[Updating Drivers](guide/driver-updating-selection.md)~~
 
 - [Reinstallation](guide/reinstalling-selection.md)
-
-- [Useful apps and instructions](guide/Additional-materials-selection.md)
 
