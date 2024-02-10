@@ -82,15 +82,10 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 ### Installing drivers
-> You can download Drivers [here](https://github.com/woacepheus/XiaoMi9-Drivers)
-
-> When you downloaded the drivers, go to the tools folder
-
-```cmd
- DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.txt" -r "<path to extracted drivers>" -p X:\
-```
+> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINCEPHEUS (should be X) and hit enter.
 
 ## Backing up boot images
+> Do this after the drivers have finished installing
 
 ##### Reboot your recovery
 > To remove the msc script
