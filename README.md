@@ -22,6 +22,8 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
+- [Telegram Group](https://t.me/WinOnMi9)
+
 - [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
