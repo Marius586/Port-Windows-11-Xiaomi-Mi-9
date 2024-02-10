@@ -1,5 +1,4 @@
-<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
-
+<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 # Running Windows on the Xiaomi Mi 9
 
@@ -11,12 +10,12 @@
 - [Windows on ARM image](https://worproject.com/esd)
 - [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Drivers](https://github.com/woacepheus/XiaoMi9-Drivers)
-- [Modded recovery image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
+- [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
 
 ### Boot the modded recovery
 > If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
 ```cmd
-fastboot flash recovery path\to\recovery.img reboot recovery
+fastboot flash recovery path\to\recovery-cepheus.img reboot recovery
 ```
 
 #### Execute the msc script
