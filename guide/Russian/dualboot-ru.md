@@ -8,8 +8,8 @@
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [Modified TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases)
-- [NTFS Android Magisk Module](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/ntfsdroid)
+- [Модифицированное TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases)
+- [NTFS Android Magisk Модуль](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/ntfsdroid)
 - [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Windows on Android Helper APK (test version)](https://t.me/WinOnMi9/328)
 - [StA Installer](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/dualboot)
