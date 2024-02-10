@@ -17,7 +17,7 @@
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Boot the modded recovery
-> If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
+> If Xiaomi has replaced your recovery back to stock, flash it again in fastboot with:
 ```cmd
 fastboot flash recovery path\to\recovery-cepheus.img reboot recovery
 ```
