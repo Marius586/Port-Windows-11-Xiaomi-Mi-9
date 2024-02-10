@@ -1,17 +1,18 @@
-<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
+<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 
-# Running Windows on the Xiaomi Mi 9
+# Running Windows on the POCO X3 Pro
 
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [Modified TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/recovery-cepheus.img)
-- [NTFS Android Magisk Module](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/download/ntfsdroid/ntfs3g.zip)
-- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.1/samsung.img)
-- [WOA Helper](https://github.com/woacepheus/WoA-Helper/releases/download/1.0/app-debug.apk)
+- [Modified TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases)
+- [NTFS Android Magisk Module](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/ntfsdroid)
+- [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
+- [Windows on Android Helper APK (test version)](https://t.me/WinOnMi9/328)
+- [StA Installer](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/dualboot)
 
 ### Phone Setup
 
@@ -23,7 +24,7 @@
 > [!NOTE]
 >
 > In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android using the backup you made earlier.
-- Download the StA Installer and the APK, then install the APK
+- Download the StA Installer and the Windows on Android Helper APK, then install the APK
 - Create a folder named "UEFI" on your internal storage
 - Copy the uefi image into the UEFI folder
 - Open the app and allow any root access it wants
