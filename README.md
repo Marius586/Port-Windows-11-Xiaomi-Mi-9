@@ -28,6 +28,8 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
+- [Optional post-install stuff](guide/post-install-selection.md)
+  
 - ~~[Troubleshooting](guide/troubleshooting-selection.md)~~
 
 - [Updating Drivers](guide/driver-updating-selection.md)
