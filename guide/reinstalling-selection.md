@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/reinstall-en.md)
-- ~~[Русский](Russian/reinstall-ru.md)~~
+- [Русский](Russian/reinstall-ru.md)
