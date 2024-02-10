@@ -46,12 +46,8 @@ assign letter x
 exit
 ```
 
-### Install Drivers
-> You can download the drivers [here](https://github.com/woacepheus/XiaoMi9-Drivers)
-
-```cmd
- DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.txt" -r "<path to extracted drivers>" -p <The window drive letter of your phone>:\
-```
+### Installing drivers
+> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINCEPHEUS (should be X) and hit enter.
 
 ### Reboot to Windows
 > Restore your "Windows" boot.img backup in TWRP and reboot your phone.
