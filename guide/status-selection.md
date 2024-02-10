@@ -4,7 +4,7 @@
 
 ## Project Status
 
-### Select your language - Выберите свой язык
+### Select your language
 
 - [English](English/status.md)
 - [Русский](Russian/status-ru.md)
