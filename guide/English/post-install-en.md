@@ -5,6 +5,16 @@
 ## Optional post-install stuff
 
 ### Disabling USB host mode
+> [!Important]
+> If you are using a powered USB hub you should disable USB host mode, or your phone may receive permanent damage
+
+To disable USB host mode, boot into Windows on your Mi 9, then download and execute [restore_default_usb.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/restore_default_usb.reg). Then reboot.
+
+To re-enable USB host mode, do the same but with [force_usb_host.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/force_usb_host.reg).
+
+## Finished!
+
+
 
 ### Hiding the D: drive (modem partition)
 > [!NOTE]
