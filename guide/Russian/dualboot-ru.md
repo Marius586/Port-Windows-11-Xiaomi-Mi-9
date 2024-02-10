@@ -6,30 +6,43 @@
 ## Двойная загрузка Android и Windows
 
 ### Требования
+- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [Modified TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases)
+- [NTFS Android Magisk Module](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/ntfsdroid)
+- [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
+- [Windows on Android Helper APK (test version)](https://t.me/WinOnMi9/328)
+- [StA Installer](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/dualboot)
 
-- Android с root-правами и пропатченное Magisk'ом ядро Android
+### Настройка телефона
 
-### Со стороны Windows
+#### Добавление поддержки NTFS в Android
+- Установите Magisk, если вы еще этого не сделали
+- Установите модуль magisk NTFS Android через менеджер Magisk.
 
-- Установите [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+#### Настройка приложения
+> [!Примичание]
+>
+> Чтобы смонтировать Windows во время загрузки Android, вам необходимо правильно «выключить» Windows. Для этого перезагрузите Windows, а затем загрузитесь в TWRP, когда экран станет черным. Отсюда вы можете вернуться на Android, используя резервную копию, сделанную ранее.
+- Загрузите установщик StA и APK-файл Windows on Android Helper, затем установите APK
+- Создайте папку с именем «UEFI» во внутренней памяти
+- Скопируйте образ UEFI в папку UEFI
+- Откройте приложение и разрешите любой root-доступ, который он хочет
+- Нажмите кнопку «BACKUP ANDROID BOOT», затем закройте всплывающее окно
+- Нажмите кнопку «Подключить/Отключить Windows», затем закройте всплывающее окно
+- Перейдите в проводник, и Windows должна быть смонтирована на SD-карте/Windows (ваше внутреннее хранилище). Переместите установщик StA и резервную копию boot.img в эту папку
+- Вернитесь в вспомогательное приложение WOA и нажмите «Быстрая загрузка в Windows»
+- После загрузки Windows запустите установщик StA в каталоге C:\
 
-- Переименуйте файл ядра Android в boot.img
-
-- Переместите его в C:\ (C:\boot.img)
-
-- Запустите ярлык на рабочем столе чтобы перезагрузиться в Андроид 
-
-### Со стороны Android
-
-- Установите на планшете  приложение [switchtowindows](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk)
-
-- Создайте папку Windows в паияти Андроида
+#### Загрузка в Android
   
-- Переименуйте UEFI файл в boot.img
+  - Запустите новый ярлык на рабочем столе от имени **АДМИНИСТРАТОР**.
 
-- Переместите его в созданную папку (/Память Андроид/Windows/boot.img)
+#### Загрузка в Windows 
 
-- Запустите приложение и предоставьте ему root-доступ
+ - Запустите программу
+ - Нажмите "Quickboot to windows"
 
-- Нажмите "Switch to Windows" если вы хотите сменить систему на Windows
+> Если быстрая загрузка не работает, возможно, вы неправильно завершили работу Windows. Если это произойдет, используйте кнопку «Прошить UEFI» и вручную перезагрузите телефон.
 
+## Готово!
