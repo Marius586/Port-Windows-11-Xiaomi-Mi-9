@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/update-en.md)
-- ~~[Русский](Russian/update-ru.md)~~
+- [Русский](Russian/update-ru.md)
