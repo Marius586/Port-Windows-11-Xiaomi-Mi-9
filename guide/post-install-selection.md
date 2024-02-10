@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Mi 9
 
-## Uninstallation
+## Optional post-install stuff
 
 ### Select your language - Выберите свой язык
 
