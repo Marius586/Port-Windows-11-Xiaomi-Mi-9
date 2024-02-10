@@ -19,6 +19,8 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation](guide/install-selection.md)
 
+- ~~[Dualboot setup](guide/dualboot-selection.md)~~
+  
 - [Uninstallation](guide/uninstall-selection.md)
 
 
