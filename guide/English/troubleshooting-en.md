@@ -6,7 +6,7 @@
 
 ## Charging in Windows does not work
 > [!WARNING]
-> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](guide/post-install-en.md#disabling-usb-host-mode).
+> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](post-install-en.md#disabling-usb-host-mode).
 
 > Charging in Windows only works on specific cables, regardless of whether USB host mode is on or off.
 
