@@ -10,8 +10,6 @@
 ### Prerequisites
 - [Recovery Image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img)
 
-- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/boot-cepheus.img)
-
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
@@ -20,8 +18,6 @@
 > All your data will be erased! Backup now if needed.
 > 
 > These commands have been tested.
-> 
-> Ignore `udevadm` warnings
 > 
 >  Do not run the same command twice
 > 
@@ -32,12 +28,12 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!
 >
-> SCRIPTS WORKS ONLY ON 128 GB VERSION
+> SCRIPTS ONLY WORK ON THE 64GB AND 128GB VERSION
 
 
-#### Boot recovery through the PC with the command
+#### Flash and boot into the modded recovery
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash path\to\recovery.img reboot recovery
 ```
 ##### Run the partitioning script
 
@@ -56,8 +52,7 @@ adb shell partition
 ```
 
 #### Check if Android still starts
-just restart the phone, and see if Android still works
-If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
+Just restart the phone, and see if Android still works. If it does not boot, reboot to the modded recovery, format all data and then reboot again.
 
 
 ### [Next step: Installing Windows](/guide/English/2-install-en.md)
