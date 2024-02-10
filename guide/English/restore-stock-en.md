@@ -13,16 +13,18 @@ If you want to relock your bootloader you'll need your partition table to be sto
 ### Prerequisites
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.1)
+- [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
 
-### Restore GPT
-> Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
-
+### Boot the modded recovery
+> If Xiaomi has replaced your recovery back to stock, flash it again in fastboot with:
 ```cmd
-fastboot flash partition:0 <gpt_both0.bin>
+fastboot flash recovery path\to\recovery-cepheus.img reboot recovery
 ```
 
-### Erase userdata to avoid bootloop and restore FS size
+### Restoring stock partitions
+> Once you've booted to the modded recovery
 ```cmd
-fastboot -w
+adb shell restore
 ```
+
+## Finished!
