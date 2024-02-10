@@ -1,7 +1,8 @@
-<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/assets/cepheus.png" width="400" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 
 # Running Windows on the Xiaomi Mi 9
+
 ## Language 
 [Русский](README-RU.md) | English
 ## ⚠️ Warning
