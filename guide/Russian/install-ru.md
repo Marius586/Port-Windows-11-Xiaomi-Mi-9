@@ -92,13 +92,16 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 ### Установка драйверов
+> Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' файл. Впишите букву диска WINCEPHEUS (Должно быть X) и нажмите enter. 
 
-> Драйвера вы можете скачать [тут](https://github.com/woacepheus/XiaoMi9-Drivers)
+## Резерное копирование загрузочных образов
+> Сделайте это после завершения установки драйверов.
 
-> Когда драйвера скачаються, то заходим в папку tools
-
+##### Перезагрузитесь в ваше recovery
+> Чтобы брать msc скрипт
+- Перезагрузитесь в рекавери через модифицированное рекавери, или запустите
 ```cmd
- DriverUpdater.exe -d "<path to extracted drivers>\definitions\Desktop\ARM64\Internal\cepheus.xml" -r "<path to extracted drivers>" -p X:\
+adb reboot recovery
 ```
 
 ### Сделайте резерную копию вашего boot из Android
