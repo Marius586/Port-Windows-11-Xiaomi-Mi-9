@@ -6,18 +6,17 @@
 
 ### Требования
 
-- [образ UEFI](https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/images/xiaomi-nabu_secureboot-v2.img)
+- Windows на вашем Xiaomi Mi 9
 - [Recovery](../../../../releases/tag/1.0)
 - [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
 
-#### Запустите рекавери с компьютера при помощи команды
-
+### Запустите модифицированное рекавери
+> Если Xiaomi заменил ваше рекавери на miui рекавери, то прошейте через fastboot:
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash recovery путь\к\recovery-cepheus.img reboot recovery
 ```
 
-#### Выполните скрипт msc
-
+#### Запустите режим mass storage
 ```cmd
 adb shell msc
 ```
@@ -54,19 +53,9 @@ exit
 
 
 ### Установка драйверов
+> Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' файл. Впишите букву диска WINCEPHEUS (Должно быть X) и нажмите enter. 
 
-> Вы можете скачать драйвера [тут](https://github.com/map220v/MiPad5-Drivers/releases/latest)
-
-```cmd
- Откройте папку с драйверами и заустите OfflineUpdater.cmd
-```
-
-
-
-### Запустите Windows с помощью загрузочного образа UEFI 
-
-```
-fastboot flash boot <uefi.img>
-```
+### Перезагрузитесь в Windows
+> Восстановите резерную копию boot.img "Windows" в TWRP и перезагрузите телефон.
 
 ## Готово!
