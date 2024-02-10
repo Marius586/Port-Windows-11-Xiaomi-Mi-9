@@ -32,7 +32,7 @@
 
 #### Flash and boot into the modded recovery
 ```cmd
-fastboot flash path\to\recovery.img reboot recovery
+fastboot flash path\to\recovery-cepheus.img reboot recovery
 ```
 ##### Run the partitioning script
 
