@@ -8,6 +8,10 @@
 
 ### Требования
 
+- Мозги (Очень важно)
+
+- Последняя версия MIUI
+
 - [Образ рекавери](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
@@ -37,7 +41,7 @@
 
 #### Запустите рекавери с компьютера при помощи команды
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash путь\к\recovery-cepheus.img reboot recovery
 ```
 ##### Запустите скрипт разметки
 
@@ -49,7 +53,8 @@ fastboot boot <recovery.img>
 
 > Убедитесь, что вы не добавили GB в конце, только число 
 
-> НЕ ПРОБУЙТЕ НА 12/256 МОДЕЛИ 
+> НЕ ПРОБУЙТЕ НА 12/256 МОДЕЛИ
+
 ```cmd
 adb shell partition
 ```
