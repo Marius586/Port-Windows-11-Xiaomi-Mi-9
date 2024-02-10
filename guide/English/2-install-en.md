@@ -16,7 +16,7 @@
 ### Boot the modded recovery
 > If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\recovery.img reboot recovery
 ```
 
 #### Execute the msc script
