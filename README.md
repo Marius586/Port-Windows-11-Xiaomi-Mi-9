@@ -30,7 +30,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Optional post-install stuff](guide/post-install-selection.md)
   
-- ~~[Troubleshooting](guide/troubleshooting-selection.md)~~
+- [Troubleshooting](guide/troubleshooting-selection.md)
 
 - [Updating Drivers](guide/driver-updating-selection.md)
 
