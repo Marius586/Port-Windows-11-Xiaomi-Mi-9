@@ -13,25 +13,19 @@
 ### Prerequisites
 
 - Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
-
-- [Recovery Image](../../../../releases/tag/1.1)
-
+- - [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-### Boot recovery to format the Windows and boot partitions
-
+### Boot the modded recovery
+> If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash recovery path\to\recovery-cepheus.img reboot recovery
 ```
+
 ### Format the partitions
 
 ```cmd
 adb shell format
 ```
 
-
-
-
-### Install
-
-- Continue the guide from [here](/guide/English/2-install-en.md#install)
+### [Next step: Reinstalling Windows](/guide/English/2-install-en.md)
