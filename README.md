@@ -2,6 +2,8 @@
 
 # Running Windows on the Xiaomi Mi 9
 
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMi9)
+
 ## Language 
 [Русский](README-RU.md) | English
 ## ⚠️ Warning
@@ -21,8 +23,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 
 ## Miscellaneous
-
-- [Telegram Group](https://t.me/WinOnMi9)
 
 - [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
