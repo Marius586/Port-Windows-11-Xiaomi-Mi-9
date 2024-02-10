@@ -22,7 +22,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
-- [Project Status](guide/status-selection.md)
+- [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
 - [Troubleshooting](guide/troubleshooting-selection.md)
 
