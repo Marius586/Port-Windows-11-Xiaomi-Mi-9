@@ -16,10 +16,10 @@
 
 
 
-### Запустите рекавери для форматирования разделов
-
+### Запустите модифицированное рекавери
+> Если Xiaomi заменил ваше рекавери на miui рекавери, то прошейте через fastboot:
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash recovery путь\к\recovery-cepheus.img reboot recovery
 ```
 
 ### Форматирование разделов
@@ -27,61 +27,5 @@ fastboot boot <recovery.img>
 ```cmd
 adb shell format
 ```
-
-#### Выполните скрипт msc
-
-```cmd
-adb shell msc
-```
-
-### Привязка букв к разделам
-  
-
-#### Запустите Менеджер дисков Windows
-
-> Как только планшет определился как диск
-
-```cmd
-diskpart
-```
-
-- Раздел "WINNABU" уже должен отображаться с буквой `X`. В таком случае перейдите к разделу `Привязка буквы  "Y"  к разделу ESP`
-
-#### Привязка буквы  `X`  к разделу Windows
-
-#### Выберите Windows раздел планшета
-> Используйте команду `list volume` чтобы найти раздел с названием "WINNABU"
-
-```diskpart
-select volume <number>
-```
-
-#### Привяжите букву X
-```diskpart
-assign letter=x
-```
-
-### Привязка буквы  `Y`  к разделу ESP
-
-#### Выберите ESP раздел планшета
-> Используйте команду `list volume` чтобы найти раздел с названием "ESPNABU"
-
-```diskpart
-select volume <number>
-```
-
-#### Привяжите букву Y
-
-```diskpart
-assign letter=y
-```
-
-- Если Вы получаете ошибку `The specified drive letter is not free to be assigned`, перезапустите компьютер и попробуйте снова. Пока что не трогайте планшет.
-
-#### Закройте diskpart
-```diskpart
-exit
-```
-
 
 ### [Следующий шаг](/guide/Russian/install-ru.md#установка-windows)
