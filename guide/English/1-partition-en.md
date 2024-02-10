@@ -31,9 +31,9 @@
 > SCRIPTS ONLY WORK ON THE 64GB AND 128GB VERSION
 
 
-#### Flash the modded recovery
+#### Flash and boot into the modded recovery
 ```cmd
-fastboot flash <recovery.img>
+fastboot flash path\to\recovery.img reboot recovery
 ```
 ##### Run the partitioning script
 
