@@ -8,22 +8,25 @@
 ### Partitioning your device
 
 ### Prerequisites
+- A brain (very important)
+  
+- Latest version of MIUI installed
+
 - [Recovery Image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
 > [!Warning]\
-> if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
+> If you delete any partitions via diskpart later on or now, Windows will send a UFS command that gets misinterpreted, which erases all of your UFS!
 > All your data will be erased! Backup now if needed.
 > 
 > These commands have been tested.
 > 
->  Do not run the same command twice
+>  Do not run the same command twice.
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the idk
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the Telegram group.
 >
-> 
 > Do not run all commands at once, execute them in order!
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!
