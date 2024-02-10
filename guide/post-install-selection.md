@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/post-install-en.md)
-- ~~[Русский](Russian/post-install-ru.md)~~
+- [Русский](Russian/post-install-ru.md)
