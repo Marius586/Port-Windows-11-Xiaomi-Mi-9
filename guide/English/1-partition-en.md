@@ -1,5 +1,4 @@
-<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
-
+<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 # Running Windows on the Xiaomi Mi 9
 
@@ -8,36 +7,32 @@
 ### Partitioning your device
 
 ### Prerequisites
-- [Recovery Image](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img)
-
-- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/boot-cepheus.img)
-
+- A brain (very important)
+- Latest version of MIUI installed
+- [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img)
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
 > [!Warning]\
-> if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
+> If you delete any partitions via diskpart later on or now, Windows will send a UFS command that gets misinterpreted, which erases all of your UFS!
 > All your data will be erased! Backup now if needed.
 > 
 > These commands have been tested.
 > 
-> Ignore `udevadm` warnings
+>  Do not run the same command twice.
 > 
->  Do not run the same command twice
-> 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the idk
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the Telegram group.
 >
-> 
 > Do not run all commands at once, execute them in order!
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!
 >
-> SCRIPTS WORKS ONLY ON 128 GB VERSION
+> SCRIPTS ONLY WORK ON THE 64GB AND 128GB VERSION
 
 
-#### Boot recovery through the PC with the command
+#### Flash and boot into the modded recovery
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash path\to\recovery-cepheus.img reboot recovery
 ```
 ##### Run the partitioning script
 
@@ -56,8 +51,7 @@ adb shell partition
 ```
 
 #### Check if Android still starts
-just restart the phone, and see if Android still works
-If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
+Just restart the phone, and see if Android still works. If it does not boot, reboot to the modded recovery, format all data and then reboot again.
 
 
 ### [Next step: Installing Windows](/guide/English/2-install-en.md)

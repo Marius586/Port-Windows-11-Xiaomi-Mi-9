@@ -1,5 +1,4 @@
-﻿<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425">
-
+<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 # Windows на Xiaomi Mi 9
 
@@ -9,13 +8,17 @@
 
 ### Требования
 
+- Мозги (Очень важно)
+
+- Последняя версия MIUI
+
 - [Образ рекавери](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Примечание:
 > [!WARNING]
-> если вы удалите любой раздел с помощью diskpart сейчас или позже, Windows рано или поздно отправит команду памяти, которая будет неправильно распознана в следствие чего вся память будет стерта.
+> Если вы удалите любой раздел с помощью diskpart сейчас или позже, Windows рано или поздно отправит команду памяти, которая будет неправильно распознана в следствие чего вся память будет стерта.
 > 
 > Все пользовательские файлы будут стерты! Создайте резервную копию, если это необходимо.
 > 
@@ -38,7 +41,7 @@
 
 #### Запустите рекавери с компьютера при помощи команды
 ```cmd
-fastboot boot <recovery.img>
+fastboot flash путь\к\recovery-cepheus.img reboot recovery
 ```
 ##### Запустите скрипт разметки
 
@@ -50,7 +53,8 @@ fastboot boot <recovery.img>
 
 > Убедитесь, что вы не добавили GB в конце, только число 
 
-> НЕ ПРОБУЙТЕ НА 12/256 МОДЕЛИ 
+> НЕ ПРОБУЙТЕ НА 12/256 МОДЕЛИ
+
 ```cmd
 adb shell partition
 ```

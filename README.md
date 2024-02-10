@@ -1,7 +1,9 @@
-<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/assets/cepheus.png" width="400" alt="Windows 11 Running On A Xiaomi Pad 5">
-
+<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 # Running Windows on the Xiaomi Mi 9
+
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMi9)
+
 ## Language 
 [Русский](README-RU.md) | English
 ## ⚠️ Warning
@@ -17,6 +19,8 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation](guide/install-selection.md)
 
+- ~~[Dualboot setup](guide/dualboot-selection.md)~~
+  
 - [Uninstallation](guide/uninstall-selection.md)
 
 
@@ -24,11 +28,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Troubleshooting](guide/troubleshooting-selection.md)
+- ~~[Troubleshooting](guide/troubleshooting-selection.md)~~
 
 - [Updating Drivers](guide/driver-updating-selection.md)
 
 - [Reinstallation](guide/reinstalling-selection.md)
-
-- [Useful apps and instructions](guide/Additional-materials-selection.md)
 
