@@ -1,7 +1,7 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 
-# Running Windows on the POCO X3 Pro
+# Running Windows on the Xiaomi Mi 9
 
 ## Dualbooting Android and Windows seamlessly
 
