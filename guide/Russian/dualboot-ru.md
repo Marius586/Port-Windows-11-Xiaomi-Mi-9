@@ -3,6 +3,8 @@
 # Windows на Xiaomi Mi 9
 
 ## Двойная загрузка Android и Windows
+> [!Important]
+> Ваше устройство должно быть с рут правами чтобы использовать этот гайд.
 
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
@@ -11,7 +13,7 @@
 - [StA Installer](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/dualboot)
 
 #### Настройка приложения
-> [!Важно]
+> [!NOTE]
 >
 > Чтобы смонтировать Windows во время загрузки Android, вам необходимо правильно «выключить» Windows. Для этого перезагрузите Windows, а затем загрузитесь в TWRP, когда экран станет черным. Отсюда вы можете вернуться на Android, используя резервную копию, сделанную ранее.
 - Загрузите установщик StA и APK-файл WOA Helper, затем установите APK.
