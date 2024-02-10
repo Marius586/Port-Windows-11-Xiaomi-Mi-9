@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/restore-stock-en.md)
-- [Русский](Russian/uninstall-ru.md)
+- ~~[Русский](Russian/uninstall-ru.md)~~
