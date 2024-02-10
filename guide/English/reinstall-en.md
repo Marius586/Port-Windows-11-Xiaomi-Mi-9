@@ -13,7 +13,7 @@
 ### Prerequisites
 
 - Existing Windows and boot partitions (*If not met, [go back and just pretend this guide never existed](/guide/English/1-partition-en.md)*)
-- - [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
+- [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Boot the modded recovery
