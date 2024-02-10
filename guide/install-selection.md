@@ -7,4 +7,4 @@
 ### Select your language - Выберите свой язык
 
 - [English](English/1-partition-en.md)
-- [Русский](Russian/partition-ru.md)
+- ~~[Русский](Russian/partition-ru.md)~~
