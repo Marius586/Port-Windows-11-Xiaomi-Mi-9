@@ -8,8 +8,7 @@
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
-- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
-- [Drivers](https://github.com/woacepheus/XiaoMi9-Drivers)
+- [UEFI image and Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
 
 ### Boot the modded recovery
