@@ -12,7 +12,7 @@
 
 - Последняя версия MIUI
 
-- [Образ рекавери](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Образ рекавери](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img)
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
