@@ -7,8 +7,8 @@
 ## Установка Windows
 
 ### Необходимое
-- [ARM-образ Windows](https://uupdump.net/)
-- [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases/)
+- [ARM-образ Windows](https://worproject.com/esd)
+- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusDisableSecureBoot.img)
 - [Драйвера](https://github.com/woacepheus/XiaoMi9-Drivers)
 - [Модифицированное тврп](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Должно быть уже установленно)
 
@@ -49,7 +49,7 @@ select volume <number>
 
 #### Выделение буквы X
 ```diskpart
-assign letter=x
+assign letter x
 ```
 
 ### Дайте букву `Y` разделу ESP
@@ -64,7 +64,7 @@ select volume <number>
 #### Выделение буквы Y
 
 ```diskpart
-assign letter=y
+assign letter y
 ```
 
 #### Выйдите с  diskpart
@@ -75,13 +75,10 @@ exit
 
 
 ### Установка Windows 
-> Замените `<path/to/install.wim>` на свой путь до install.wim,
-
-> `install.wim` находится в ISO, в папке sources.
-> Вы можете достать install.wim монтируя ISO на своем компьюетере
+> Замените `<path/to/install.esd>` на свой путь до install.esd,
 
 > Замените `index:6` на `index:1` если ваш образ не из ссылки которая предоставленна в инструкции
-s
+
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
