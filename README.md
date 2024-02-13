@@ -2,7 +2,7 @@
 
 # Running Windows on the Xiaomi Mi 9
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMi9)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woacepheus)
 
 ## Language 
 [Русский](README-RU.md) | **English**
