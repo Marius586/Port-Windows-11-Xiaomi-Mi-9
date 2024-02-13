@@ -29,9 +29,9 @@
 
 
 #### Загрузка в Android
-- Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+- Запустите новый ярлык на рабочем столе (вы также можете закрепить его в меню «Пуск» или на панели задач для удобства доступа).
 
 #### Загрузка в Windows 
-- Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+- Нажмите `Quickboot to Windows` внутри приложения или воспользуйтесь вновь созданным переключателем на панели быстрых настроек.
 
 ## Готово!
