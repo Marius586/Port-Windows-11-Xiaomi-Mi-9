@@ -11,3 +11,7 @@
 > Charging in Windows only works on specific cables, regardless of whether USB host mode is on or off.
 
 Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), and the Nimaso 100W USB-C to USB-C fast charging cable.
+
+## TWRP does not start and the phone does not exit from fastboot
+
+Take the bootloaders from the [firmware](https://xiaomifirmwareupdater.com/archive/firmware/cepheus/) and flash them via fastboot, then try to launch again
