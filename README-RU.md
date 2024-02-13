@@ -25,7 +25,7 @@
 
 - [Optional post-install stuff](guide/Russian/post-install-ru.md)
 
-- [Исправление ошибок](guide/Russiantroubleshooting-ru.md)
+- [Исправление ошибок](guide/Russian/troubleshooting-ru.md)
 
 - [Обновление Драйверов](guide/Russian/update-ru.md)
 
