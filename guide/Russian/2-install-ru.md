@@ -10,7 +10,7 @@
 - [ARM-образ Windows](https://uupdump.net/)
 - [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases/)
 - [Драйвера](https://github.com/woacepheus/XiaoMi9-Drivers)
-- [Модифицированное тврп](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Должно быть уже установленно)
+- [Модифицированное тврп](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Должно быть уже установленно)
 
 
 
