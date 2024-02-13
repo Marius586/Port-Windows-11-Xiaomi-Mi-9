@@ -9,7 +9,7 @@
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 - [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
-- [WOA Helper app)](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/woahelper.apk)
+- [WOA Helper app](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/woahelper.apk)
 - [StA Installer](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/StA_Installer_cepheus.exe)
 
 ## Set up dualboot app
