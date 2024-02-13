@@ -5,7 +5,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/WinOnMi9)
 
 ## Language 
-[Русский](README-RU.md) | English
+[Русский](README-RU.md) | **English**
 ## ⚠️ Warning
 
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline workers cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
@@ -17,22 +17,22 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation](guide/install-selection.md)
+- [Installation](guide/English/install-en.md)
 
-- [Dualboot setup](guide/dualboot-selection.md)
+- [Dualboot setup](guide/English/dualboot-en.md)
   
-- [Uninstallation](guide/uninstall-selection.md)
+- [Uninstallation](guide/English/uninstall-en.md)
 
 
 ## Miscellaneous
 
 - [Project Status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Optional post-install stuff](guide/post-install-selection.md)
+- [Optional post-install stuff](guide/English/post-install-en.md)
   
-- [Troubleshooting](guide/troubleshooting-selection.md)
+- [Troubleshooting](guide/English/troubleshooting-en.md)
 
-- [Updating Drivers](guide/driver-updating-selection.md)
+- [Updating Drivers](guide/English/update-en.md)
 
-- [Reinstallation](guide/reinstalling-selection.md)
+- [Reinstallation](guide/English/reinstall-en.md)
 
