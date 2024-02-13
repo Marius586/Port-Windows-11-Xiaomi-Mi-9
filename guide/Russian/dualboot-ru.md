@@ -9,33 +9,29 @@
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 - [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
-- [Windows on Android Helper APK (test version)](https://t.me/WinOnMi9/328)
-- [StA Installer](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/releases/dualboot)
+- [WOA Helper app)](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/woahelper.apk)
+- [StA Installer](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/StA_Installer_cepheus.exe)
 
-#### Настройка приложения
+#### Настройка - Android
 > [!NOTE]
 >
 > Чтобы смонтировать Windows во время загрузки Android, вам необходимо правильно «выключить» Windows. Для этого перезагрузите Windows, а затем загрузитесь в TWRP, когда экран станет черным. Отсюда вы можете вернуться на Android, используя резервную копию, сделанную ранее.
-- Загрузите установщик StA и APK-файл WOA Helper, затем установите APK.
-- Дайте ему рут права если он потребует.
-- Скопируйте образ UEFI в папку UEFI в внутренней памяти. Создайте папку если её нету.
-- Выберите «Backup to Android», а затем закройте всплывающее окно.
-- Сделайте то же самое, но выберете «Backup to Windows» 
-- Нажмите кнопку «Mount Windows» чтобы смонтировать Windows в папку Windows которая находится в вашей внутренней памяти.
 
-- Скопируйте StA Installer.exe в корень папки Windows
-- Вернитесь в вспомогательное приложение WOA и нажмите «Quickboot to windows»
-- После загрузки Windows запустите установщик StA в каталоге C:\
+- Скачайте и установите [WOA Helper](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/woahelper.apk)
+- Скачайте [образ UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases) и перенесите в папку с названием `UEFI` в внутренней памяти, если папки нету создайте её.
+- Выберите «Backup to Android», а затем закройте всплывающее окно. Выберите обе `Windows` и `Android` опции.
+- Сделайте то же самое, но выберете «Backup to Windows» 
+- Нажмите кнопку «Mount Windows», после чего скачайте [StA_Installer_cepheus.exe](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/StA_Installer_cepheus.exe) и перенесите в новую папку `Windows` в вашей внутренней памяти.
+- Вернитесь в приложение и нажмите «Quickboot to windows»
+
+### Настройка - Windows
+- Перейдите к `C:\StA_Installer_cepheus.exe` и запустите его. Если это не сработает, убедитесь, что все антивирусные программы отключены, поскольку они, вероятно, не позволят приложению запуститься.
 
 
 #### Загрузка в Android
-  
-  - Запустите новый ярлык на рабочем столе от имени **АДМИНИСТРАТОР**.
+   - Запустите новый ярлык на рабочем столе от имени **АДМИНИСТРАТОР**.
 
 #### Загрузка в Windows 
-
- - Нажмите "Quickboot to windows", или воспользуйтесь переключателем на панели быстрых настроек.
-
-> Если быстрая загрузка не работает, возможно, вы неправильно завершили работу Windows. Если это произойдет, используйте кнопку «Прошить UEFI» и вручную перезагрузите телефон.
+   - Нажмите "Quickboot to windows", или воспользуйтесь переключателем на панели быстрых настроек.
 
 ## Готово!
