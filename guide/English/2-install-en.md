@@ -9,7 +9,7 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
 - [UEFI image and Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
-- [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.0/recovery-cepheus.img) (Should already be installed)
+- [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Should already be installed)
 
 ### Boot the modded recovery
 > If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
