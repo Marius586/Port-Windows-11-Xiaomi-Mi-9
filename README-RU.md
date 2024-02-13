@@ -13,22 +13,34 @@
 
 ## Начнём
 
-- [Установка](guide/install-selection.md)
+- [Установка](guide/Russian/1-partition-ru.md)
 
-- [Настройка двойной загрузки](guide/dualboot-selection.md)
+- [Настройка двойной загрузки](guide/Russian/dualboot-ru.md)
 
-- [Удаление](guide/uninstall-selection.md)
+- [Удаление](guide/Russian/uninstall-ru.md)
 
 ## Разное
 
-- [Статус Проекта](guide/status-selection.md)
+- [Статус Проекта](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Исправление ошибок](guide/troubleshooting-selection.md)
+- [Optional post-install stuff](guide/Russian/post-install-ru.md)
 
-- [Обновление Драйверов](guide/driver-updating-selection.md)
+- [Исправление ошибок](guide/Russiantroubleshooting-ru.md)
 
-- [Переустановка](guide/reinstalling-selection.md)
+- [Обновление Драйверов](guide/Russian/update-ru.md)
 
-- [Полезные приложения и инструкции ](guide/Additional-materials-selection.md)
+- [Переустановка](guide/Russian/reinstall-ru.md)
+
+
 
 ## Разработчики
+
+
+
+
+
+
+
+
+
+
