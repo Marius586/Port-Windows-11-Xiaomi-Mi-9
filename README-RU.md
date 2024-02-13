@@ -23,7 +23,7 @@
 
 - [Статус Проекта](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Optional post-install stuff](guide/Russian/post-install-ru.md)
+- [Дополнительные возможности после установки](guide/Russian/post-install-ru.md)
 
 - [Исправление ошибок](guide/Russian/troubleshooting-ru.md)
 
