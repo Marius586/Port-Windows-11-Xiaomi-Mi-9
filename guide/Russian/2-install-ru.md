@@ -77,7 +77,7 @@ exit
 ### Установка Windows 
 > Замените `<path/to/install.esd>` на свой путь до install.esd
 
-> If you are using an ISO file, the image file is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
+> Если вы используйте ISO файл, то файл образа находится в ISO. Монтируйте ISO через Windows Explorer, а затем скопируйте путь к нему
 
 > Замените `index:6` на `index:1` если ваш образ не из ссылки которая предоставленна в инструкции
 
