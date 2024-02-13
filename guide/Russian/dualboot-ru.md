@@ -8,7 +8,7 @@
 
 ### Требования
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-- [UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
+- [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusDisableSecureBoot.img)
 - [WOA Helper app)](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/woahelper.apk)
 - [StA Installer](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/StA_Installer_cepheus.exe)
 
@@ -18,7 +18,7 @@
 > Чтобы смонтировать Windows во время загрузки Android, вам необходимо правильно «выключить» Windows. Для этого перезагрузите Windows, а затем загрузитесь в TWRP, когда экран станет черным. Отсюда вы можете вернуться на Android, используя резервную копию, сделанную ранее.
 
 - Скачайте и установите [WOA Helper](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/woahelper.apk)
-- Скачайте [образ UEFI](https://github.com/qaz6750/XiaoMi9-Drivers/releases) и перенесите в папку с названием `UEFI` в внутренней памяти, если папки нету создайте её.
+- Скачайте [образ UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusDisableSecureBoot.img) и перенесите в папку с названием `UEFI` в внутренней памяти, если папки нету создайте её.
 - Выберите «Backup to Android», а затем закройте всплывающее окно. Выберите обе `Windows` и `Android` опции.
 - Сделайте то же самое, но выберете «Backup to Windows» 
 - Нажмите кнопку «Mount Windows», после чего скачайте [StA_Installer_cepheus.exe](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/StA_Installer_cepheus.exe) и перенесите в новую папку `Windows` в вашей внутренней памяти.
