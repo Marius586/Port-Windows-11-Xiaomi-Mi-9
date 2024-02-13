@@ -1,8 +1,12 @@
 <img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
 # Запуск Windows на Xiaomi Mi 9
+
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woacepheus)
+
 ## Язык
 Русский | [English](README.md)
+
 ## ⚠️ Предупреждение
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
