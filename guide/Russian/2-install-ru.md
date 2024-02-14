@@ -85,16 +85,22 @@ exit
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
+### Установка драйверов
+> Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' файл. Впишите букву диска WINCEPHEUS (Должно быть X) и нажмите enter.
+
 ### Создание загрузчика для этого EFI
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Установка драйверов
-> Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' файл. Впишите букву диска WINCEPHEUS (Должно быть X) и нажмите enter. 
+### Removing disk letters
+> Use diskpart to remove the letters from WINCEPHEUS and ESPCEPHEUS, if they still have letters attached to them
+
+> Use `list volume` to find ESPCEPHEUS, select it with `select volume <number>`, then remove letter Y with `remove letter y`
+
+> Do the same for WINCEPHEUS if it still has a letter attached
 
 ## Резерное копирование загрузочных образов
-> Сделайте это после завершения установки драйверов.
 
 ##### Перезагрузитесь в ваше recovery
 > Чтобы убрать msc скрипт
