@@ -85,7 +85,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 ```
 
 ### Remove disk letter
-> Use diskpart to remove the letter from ESPCEPHEUS, if it still has a letter attached to it
+> Use diskpart to remove the letter from ESPCEPHEUS, or it will remain until you reboot your PC
 
 > Use `list volume` to find ESPCEPHEUS, select it with `select volume <number>`, then remove letter Y with `remove letter y`
 
