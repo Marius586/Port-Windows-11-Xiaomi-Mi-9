@@ -8,7 +8,7 @@
 
 - Windows на вашем Xiaomi Mi 9
 - [Recovery](../../../../releases/tag/1.0)
-- [Драйверы](https://github.com/map220v/MiPad5-Drivers/releases/latest)
+- [Драйверы](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Drivers/cepheus-drivers.zip)
 
 ### Запустите модифицированное рекавери
 > Если Xiaomi заменил ваше рекавери на miui рекавери, то прошейте через fastboot:
