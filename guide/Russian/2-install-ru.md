@@ -93,10 +93,10 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Remove disk letter
-> Use diskpart to remove the letter from ESPCEPHEUS, if it still has a letter attached to it
+### Уберите букву диска
+> Используйте diskpart чтобы убрать букву с  ESPCEPHEUS, если буква осталась
 
-> Use `list volume` to find ESPCEPHEUS, select it with `select volume <number>`, then remove letter Y with `remove letter y`
+> Используйте `list volume` чтобы найти ESPCEPHEUS, выберите его с помощью `select volume <number>`, потом уберите букву Y с помощью `remove letter y`
 
 ## Резерное копирование загрузочных образов
 
@@ -121,12 +121,6 @@ adb reboot recovery
 
 ### Загрузитесь в Windows
 > После того как вы прошили UEFI образ, перезагрузите телефон.
-
-### Уберите фантомные буквы дисков (если они не убрались автоматический)
-```cmd
-mountvol x: /d
-mountvol y: /d
-```
 
 ## Готово
 
