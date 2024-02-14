@@ -84,12 +84,10 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Removing disk letters
-> Use diskpart to remove the letters from WINCEPHEUS and ESPCEPHEUS, if they still have letters attached to them
+### Remove disk letter
+> Use diskpart to remove the letter from ESPCEPHEUS, if it still has a letter attached to it
 
-> Use `list volume` to find WINCEPHEUS, select it with `select volume <number>`, then remove letter X with `remove letter x`
-
-> Do the same for ESPCEPHEUS
+> Use `list volume` to find ESPCEPHEUS, select it with `select volume <number>`, then remove letter Y with `remove letter y`
 
 ## Backing boot images
 
