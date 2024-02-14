@@ -76,16 +76,22 @@ exit
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
+### Installing drivers
+> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINCEPHEUS (should be X) and hit enter.
+
 ### Create Windows bootloader files for the EFI
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Installing drivers
-> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINCEPHEUS (should be X) and hit enter.
+### Removing disk letters
+> Use diskpart to remove the letters from WINCEPHEUS and ESPCEPHEUS, if they still have letters attached to them
 
-## Backing up boot images
-> Do this after the drivers have finished installing
+> Use `list volume` to find WINCEPHEUS, select it with `select volume <number>`, then remove letter X with `remove letter x`
+
+> Do the same for ESPCEPHEUS
+
+## Backing boot images
 
 ##### Reboot your recovery
 > To remove the msc script
@@ -110,14 +116,7 @@ adb reboot recovery
 > After having flashed the UEFI image, reboot your phone.
 
 * Your device will now set up Windows. This will take some time. It will eventually reboot, and after that the initial setup (oobe) should launch.
-  
 
-### Remove phantom drive letters (if they are not removed automatically)
-> Run these commands as an admin to remove the letters
-```cmd
-mountvol x: /d
-mountvol y: /d
-```
 
 ## Finished!
 
