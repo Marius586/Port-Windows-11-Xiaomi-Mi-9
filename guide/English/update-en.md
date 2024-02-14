@@ -7,7 +7,7 @@
 
 ### Prerequisites
 - Windows on your Xiaomi Mi 9
-- [Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
+- [Drivers](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Drivers/cepheus-drivers.zip)
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Boot the modded recovery
