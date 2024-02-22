@@ -9,7 +9,7 @@
 ### Необходимое
 - [ARM-образ Windows](https://worproject.com/esd)
 - [UEFI](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusDisableSecureBoot.img)
-- [Драйвера](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Drivers/cepheus-drivers.zip)
+- [Драйвера](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Модифицированное тврп](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Должно быть уже установленно)
 
 
