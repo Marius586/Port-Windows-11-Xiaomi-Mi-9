@@ -16,7 +16,6 @@
 **ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО СЛОМАТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ПОЛОМКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
 
 ## Начнём
-
 - [Установка](guide/Russian/1-partition-ru.md)
 
 - [Настройка двойной загрузки](guide/Russian/dualboot-ru.md)
@@ -24,7 +23,6 @@
 - [Удаление](guide/Russian/uninstall-ru.md)
 
 ## Разное
-
 - [Статус Проекта](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
 - [Дополнительные возможности после установки](guide/Russian/post-install-ru.md)
@@ -34,8 +32,6 @@
 - [Обновление Драйверов](guide/Russian/update-ru.md)
 
 - [Переустановка](guide/Russian/reinstall-ru.md)
-
-
 
 ## Разработчики
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
@@ -62,6 +58,15 @@ src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/11182
 [<img alt="RIllEX1"
 src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/142384494?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RIllEX1)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
+[<img alt="avitoras" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/150951417?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/avitoras)
+
+
+
+
+
+
+
+
 
 
 
