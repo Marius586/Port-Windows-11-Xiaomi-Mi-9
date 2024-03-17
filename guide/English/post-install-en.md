@@ -16,9 +16,7 @@ To disable USB host mode, boot into Windows on your Mi 9, then download and exec
 
 To re-enable USB host mode, do the same but with [force_usb_host.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/force_usb_host.reg).
 
-## Finished!
-
-
+##### Finished!
 
 ### Hiding the D: drive (modem partition)
 > [!NOTE]
@@ -30,4 +28,12 @@ To re-enable USB host mode, do the same but with [force_usb_host.reg](https://gi
 - Remove the letter with ```remove letter d```
 - Now exit diskpart with ```exit```
 
-## Finished!
+##### Finished!
+
+
+
+
+
+
+
+
