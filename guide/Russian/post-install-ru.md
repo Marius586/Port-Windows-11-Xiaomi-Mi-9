@@ -1,29 +1,29 @@
 <img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
 
-# Запуск Windows 11 на Xiaomi Mi 9
+# Запуск Windows на Xiaomi Mi 9
 
-## Дополнительные возможности после установки
+## Необязательные действия после установки
 
-### Отключение режима USB Хост 
-> [!Important]
-> Если вы используете usb хаб с внешним питанием, то отключите этот режим чтобы избежать повреждение телефона
+### Список поддерживаемого софта
+> Это не полный список, просто все то, что протестировало комьюнити.
+> [Ссылка на таблицу](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-Чтобы отключить USB Хост скачайте и запустить [restore_default_usb.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/restore_default_usb.reg). Затем перезагрузите.
+### Переключение в режим USB host mode
+> [!Warning]
+> Отключите USB host mode, если у вас подключен юсб-хаб с питанием, тк. это может повредить ваше устройство. Если вы используете юсб-хаб без питания, включите USB host mode, иначе вы не сможете использовать никакие юсб-устройства.
 
-Чтобы включить USB Хост опять сделайте тоже самое, но с  [force_usb_host.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/force_usb_host.reg).
+Запустите [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) чтобы включить/выключить USB host mode, подтвердите, что вы хотите включить или выключить USB host mode и подтвердите перезагрузку.
 
-## Готово!
+#### Готово!
 
-
-
-### Скрытие D: тома (раздел модема)
+### Скрываем диск D: (раздел связанный с модемом)
 > [!NOTE]
-> Это рекомендуется сделать чтобы раздел не подвёргся модификации после которой некоторые приложения откажутся работать
+> Это очень рекомендуется сделать, тк. этот диск должен оставться не тронутым, а приложения или игры могут пытаться записать свои данные на этот том.  
 
-- Откройте cmd и напишите ```diskpart```
-- Затем ```list volume``` чтобы посмотреть доступные разделы
-- Выберите диск D с помощью ```select volume $```, заменив "$" с цифрой тома
-- Уберите букву ```remove letter d```
-- Теперь выйдите из diskpart ```exit```
+- Откройте командную строку и запустите  ```diskpart```
+- Затем пропишите ```list volume``` чтобы увидеть все тома.
+- Выберите диск с буквой D с помощью команды ```select volume $``` (вместо $ прописываем номер тома, который мы узнали ранее)
+- Удалите букву с помощью команды ```remove letter d```
+- Закрываем diskpart с помощью команды ```exit```
 
-## Готово!
+#### Готово!
