@@ -4,6 +4,10 @@
 
 ## Optional post-install stuff
 
+### List of supported apps/games
+> This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
+[The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+
 ### Disabling USB host mode
 > [!Important]
 > If you are using a powered USB hub you should disable USB host mode, or your phone may receive permanent damage
