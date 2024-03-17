@@ -8,15 +8,13 @@
 > This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
 [The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-### Disabling USB host mode
-> [!Important]
-> If you are using a powered USB hub you should disable USB host mode, or your phone may receive permanent damage
+### Toggling USB host mode
+> [!Warning]
+> Disable USB host mode if you use a poweref USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-To disable USB host mode, boot into Windows on your Mi 9, then download and execute [restore_default_usb.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/restore_default_usb.reg). Then reboot.
+Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) to enable/disable USB host mode, confirm that you want to disable/enable USB host mode and then confirm the reboot
 
-To re-enable USB host mode, do the same but with [force_usb_host.reg](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/blob/main/guide/tools/force_usb_host.reg).
-
-##### Finished!
+#### Finished!
 
 ### Hiding the D: drive (modem partition)
 > [!NOTE]
@@ -28,7 +26,7 @@ To re-enable USB host mode, do the same but with [force_usb_host.reg](https://gi
 - Remove the letter with ```remove letter d```
 - Now exit diskpart with ```exit```
 
-##### Finished!
+#### Finished!
 
 
 
