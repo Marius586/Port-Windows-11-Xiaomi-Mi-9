@@ -5,8 +5,12 @@
 ## Необязательные действия после установки
 
 ### Список поддерживаемого софта
-> Это не полный список, просто все то, что протестировало комьюнити.
-> [Ссылка на таблицу](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+Это не полный список, просто все то, что протестировало комьюнити.
+[Ссылка на таблицу](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+
+You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
+
+#### Готово!
 
 ### Переключение в режим USB host mode
 > [!Warning]
