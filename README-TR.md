@@ -1,39 +1,42 @@
-<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 Running On A Xiaomi Mi 9">
+<img align="right" src="https://raw.githubusercontent.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/main/cepheus.png" width="425" alt="Windows 11 çalıştıran bir Mi 9">
 
-# Запуск Windows на Xiaomi Mi 9
+# Xiaomi Mi 9'da Windows Çalıştırma
 
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woacepheus)
 
-## Язык
-**Русский** | [English](README.md) | [Türkçe](README-TR.md)
+## Dil
+[Русский](README-RU.md) | [English](README.md) | **Türkçe**
 
-## ⚠️ Предупреждение
-Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
+## ⚠️ Uyarı
+Tuğla olmuş telefonlar, bozuk kurtarma bölmeleri, ölü Xiaomi fabrika çalışanları, kovboylar, ölü microSD kartlar, ölü besleme devreleri, ölü RAMler, ölü ekranlar, ölü işlemciler, herhangi bir xiaomi olayı, ölü kedi ve köpekler, nükleer savaşlar ya da gece uyumadan önce Android'e geçmeyi unuttuğunuz için alarmınızın çalmaması ve işten atılmanızdan SORUMLU DEĞİLİZ.
 
-Установка Windows - опасный процесс, делайте это на свой страх и риск и осторожно следуйте инструкции.
-Этот проект находится на ранней стадии, все файлы здесь были предоставлены другими пользователями, здесь вы найдете руководство с рабочими файлами, которые нам удалось получить. Это деликатный процесс, делайте это на свой страх и риск и внимательно следуйте всем шагам!
+Bu proje daha ilk aşamalarında olup burdaki her dosya bir sürü gönüllü kişinin desteğilye hazırlanmıştır. Burada cihazınız için derlediğimiz birkaç dosya ve bir rehber bulunmaktadır. Bu iş çok zahmetli ve riskli olduğundan her adımınıza dikkat ediniz.
 
-**ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО СЛОМАТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ПОЛОМКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
+**EĞER TELEFONUZU VE YA BÖLÜMLERİNİ MODİFİYE ETMEKTEN, DEĞİŞTİRMEKTEN KORKUYORSANIZ VE YA TELEFONU BOZACAĞINIZI DÜŞÜNÜYORSANIZ BU SAYFADAN HEMEN AYRILIN!!! SONRA UYARMADINIZ DEMEYİN, EĞER TELEFONUNUZU BOZARSANIZ BİZİ SORUMLU TUTMAYIN!!! UYARILDINIZ!!!**
 
-## Начнём
-- [Установка](guide/Russian/1-partition-ru.md)
 
-- [Настройка двойной загрузки](guide/Russian/dualboot-ru.md)
+## Başlangıç
+- [Kurulum](guide/Turkish/1-partition-tr.md)
 
-- [Удаление](guide/Russian/uninstall-ru.md)
+- [Çift Sistem Kurulumu](guide/Turkish/dualboot-tr.md)
+  
+- [Kaldırma](guide/Turkish/uninstall-tr.md)
 
-## Разное
-- [Статус Проекта](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Дополнительные возможности после установки](guide/Russian/post-install-ru.md)
+## Ekstra Rehberler
+- [Projenin Durumu](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Исправление ошибок](guide/Russian/troubleshooting-ru.md)
+- [(Opsiyonel) Kurulum Sonrası](guide/Turkish/post-install-tr.md)
+  
+- [Sorun Giderme](guide/Turkish/troubleshooting-tr.md)
 
-- [Обновление Драйверов](guide/Russian/update-ru.md)
+- [Sürücüleri Güncelleme](guide/Turkish/update-tr.md)
 
-- [Переустановка](guide/Russian/reinstall-ru.md)
+- [Yeniden Kurulum](guide/Turkish/reinstall-tr.md)
 
-## Разработчики
+
+## Gönüllüler/Katılımcılar
+
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
@@ -59,10 +62,6 @@ src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/11182
 src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/142384494?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/RIllEX1)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="avitoras" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/150951417?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/avitoras)
-
-
-
-
 
 
 
