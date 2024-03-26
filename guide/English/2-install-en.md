@@ -8,7 +8,6 @@
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
-- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Should already be installed)
 
@@ -23,16 +22,12 @@ fastboot flash recovery path\to\recovery-cepheus.img reboot recovery
 ```cmd
 adb shell msc
 ```
-
-### Assign letters to disks
   
 #### Start the Windows disk manager
 > Once the Xiaomi Mi 9 is detected as a disk
 ```cmd
 diskpart
 ```
-
-#### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
 > Use `list volume` to find it, it's the one named "WINCEPHEUS"
@@ -45,8 +40,6 @@ select volume <number>
 ```diskpart
 assign letter x
 ```
-
-### Assign `Y` to ESP volume
 
 #### Select the esp volume of the phone
 > Use `list volume` to find it, it's the one named "ESPCEPHEUS"
@@ -89,33 +82,10 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 > Use `list volume` to find ESPCEPHEUS, select it with `select volume <number>`, then remove letter Y with `remove letter y`
 
-## Backing boot images
+### Reboot to Android
+> To set up dualboot
 
-##### Reboot your recovery
-> To remove the msc script
-- Reboot to recovery through the modded recovery, or run
-```cmd
-adb reboot recovery
-```
+## [Last step: Setting up dualboot](/guide/dualboot.md)
 
-##### Back up your Android boot image
-> Use the TWRP backup feature to backup your Android boot image. Name this backup "Android"
-
-##### Push the UEFI to your phone
-> Drag and drop MuCepheusSecureBoot.img to your phone's internal storage.
-
-##### Flash the UEFI
-> Use the TWRP install feature to flash the UEFI image to your boot partition. Select "install image", then locate the image.
-
-##### Back up your Windows boot image
-> Use the TWRP backup feature to backup your Windows boot image. Name this backup "Windows"
-
-## Boot into Windows
-> After having flashed the UEFI image, reboot your phone.
-
-* Your device will now set up Windows. This will take some time. It will eventually reboot, and after that the initial setup (oobe) should launch.
-
-
-## Finished!
 
 ### [Last step: Setup Dualboot](dualboot-en.md)
