@@ -8,7 +8,6 @@
 
 ### Gerekenler
 - [Windows on ARM sistem dosyası](https://worproject.com/esd)
-- [UEFI imajı](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Sürücüler](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
 - [Modifiyeli TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Zaten kurulu olması lazım)
 
@@ -23,16 +22,12 @@ fastboot flash dosyaya\giden\yol\recovery-cepheus.img reboot recovery
 ```cmd
 adb shell msc
 ```
-
-### Bölmelere harf atama
   
 #### Windows Disk Yöneticisi ile başlayın
 > Xiaomi Mi 9 telefonuz bilgisayarda gözüktüğü anda
 ```cmd
 diskpart
 ```
-
-### Windows Bölümüne `X` Harfini Atayın
 
 #### Telefondaki Windows bölümünü seçin
 > Bölüm sayısını bulmak için Diskpart'a `list volume` yazın, adı "WINCEPHEUS" olarak çıkacaktır
@@ -45,8 +40,6 @@ select volume <bölüm sayısı>
 ```diskpart
 assign letter x
 ```
-
-### ESP Bölümüne `Y` Harfini Atayın
 
 #### Telefondaki ESP Bölümünü seçin
 > Bölüm sayısını bulmak için Diskpart'a `list volume` yazın, adı "ESPCEPHEUS" olarak çıkacaktır
@@ -89,32 +82,7 @@ bcdboot X:\Windows /s Y: /f UEFI
 
 > ESPCEPHEUS'un numarasını bulmak için `list volume` kullanın, `select volume <numara>` ile seçin, son olarak `remove letter y` ile kaldırın
 
-## Önyükleme İmajlarının yedeklerini alma
+### Reboot to Android
+> To set up dualboot
 
-##### Kurtarma moduna yeniden girin
-> MSC komutunu durdurmak için
-- Telefonu yeniden başlatıp Kurtarma moduna girin veya bilgisayardan şu komutu yazın:
-```cmd
-adb reboot recovery
-```
-
-##### Android Önyükleyici imajının yedeğini alma
-> TWRP Yedekleme aleti ile (ana menüde Backup olarak çıkar) Boot/Önyükleyici Bölümünün yedeğini alın ve adını "Android" yapın
-
-##### UEFI imajını telefona atın
-> MuCepheusSecureBoot.img dosyasını telefonun dahili depolamasına sürükleyin
-
-##### UEFI imajını yükleme
-> TWRP Kurulum aleti'ne (Install) girin, aşağıdan `Install Image`ı seçin ve UEFI imajını bulun
-##### Windows Önyükleyici imajının yedeğini alma
-> TWRP Yedekleme aleti ile (ana menüde Backup olarak çıkar) Boot/Önyükleyici Bölümünün yedeğini alın ve adını "Windows" yapın
-
-## Windows'a girin
-> UEFI imajını yükledikten sonra telefonu yeniden başladı
-
-* Artık cihazınız Windows'u kurmaya başlayacaktır. Uzun sürmesi normaldir, lütfen sabırla bekleyin. Sonra yeniden başlayıp kurulum sonrası menüsüne (OOBE) gelecektir
-
-
-## Hazırsınız!
-
-### [Son Adım: Çift Sistem Kurulumu](dualboot-tr.md)
+## [Son Adım: Çift Sistem Kurulumu](dualboot-tr.md)
