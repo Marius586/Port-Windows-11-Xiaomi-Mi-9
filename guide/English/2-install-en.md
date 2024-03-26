@@ -85,7 +85,4 @@ bcdboot X:\Windows /s Y: /f UEFI
 ### Reboot to Android
 > To set up dualboot
 
-## [Last step: Setting up dualboot](/guide/dualboot.md)
-
-
 ### [Last step: Setup Dualboot](dualboot-en.md)
