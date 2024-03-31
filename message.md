@@ -1,1 +1,0 @@
-i not more interested in contributing to this guide, bye
