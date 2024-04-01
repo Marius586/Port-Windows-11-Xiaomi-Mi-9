@@ -19,33 +19,30 @@
 > 
 > Do not run the same command twice unless specified.
 > 
-> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the Telegram group.
+> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woacepheus).
 >
 > Do not run all commands at once, execute them in order!
 >
 > SCRIPTS ONLY WORK ON THE 64GB AND 128GB VERSION
 
+> [!IMPORTANT]
+> Make sure you use the provided recovery image in this guide. The instructions will not work on other recoveries.
 
-#### Flash and boot into the modded recovery
+#### Flash the modded recovery
+> Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
 ```cmd
-fastboot flash path\to\recovery-cepheus.img reboot recovery
+fastboot flash recovery path\to\recovery-cepheus.img reboot recovery
 ```
-##### Run the partitioning script
+
+#### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
 > If it asks you to run it once again, do so
->
-> This is **optional** but you can **set custom sizes using this script**
-
-> To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
-
-> Make sure you do not add GB at the end, just the number
-
-> DO NOT TRY ON 12/256 MODEL AKA MI 9 EXPLORER EDITION
-
 ```cmd
-adb shell partition
+adb shell partition $
 ```
 
-#### Check if Android still starts
+### Check if Android still starts
 Just restart the phone, and see if Android still works. If it does not boot, reboot to the modded recovery, format all data and then reboot again.
 
 
