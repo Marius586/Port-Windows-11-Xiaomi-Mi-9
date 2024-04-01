@@ -2,13 +2,13 @@
 
 # Xiaomi Mi 9'da Windows Çalıştırma
 
-## Kurulum
-
 ## Windows Kurulumu
 
 ### Gerekenler
 - [Windows on ARM sistem dosyası](https://worproject.com/esd)
+
 - [Sürücüler](https://github.com/qaz6750/XiaoMi9-Drivers/releases)
+
 - [Modifiyeli TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img) (Zaten kurulu olması lazım)
 
 ### Modifiyeli TWRP'ye geçin
@@ -24,14 +24,14 @@ adb shell msc
 ```
   
 #### Windows Disk Yöneticisi ile başlayın
-> Xiaomi Mi 9 telefonuz bilgisayarda gözüktüğü anda
+> [!Warning]
+> Eğer Diskpart kullanarak telefonu bölümlendirmeye çalışırsanız Windows hatalı bir UFS komutu göndererek telefondaki HER BÖLMEYİ VE İÇİNDEKİLERİ SİLER! 
 ```cmd
 diskpart
 ```
 
 #### Telefondaki Windows bölümünü seçin
-> Bölüm sayısını bulmak için Diskpart'a `list volume` yazın, adı "WINCEPHEUS" olarak çıkacaktır
-
+> Bölüm sayısını bulmak için Diskpart'a `list volume` yazın, adı **WINCEPHEUS** olarak çıkacaktır
 ```diskpart
 select volume <bölüm sayısı>
 ```
@@ -42,8 +42,7 @@ assign letter x
 ```
 
 #### Telefondaki ESP Bölümünü seçin
-> Bölüm sayısını bulmak için Diskpart'a `list volume` yazın, adı "ESPCEPHEUS" olarak çıkacaktır
-
+> Bölüm sayısını bulmak için Diskpart'a `list volume` yazın, adı **ESPCEPHEUS** olarak çıkacaktır
 ```diskpart
 select volume <bölüm sayısı>
 ```
@@ -70,19 +69,31 @@ dism /apply-image /ImageFile:dosyaya\giden\yol\install.esd /index:6 /ApplyDir:X:
 ```
 
 ### Sürücülerin Kurulumu
-> Sürücülerin olduğu sıkıştırılmış dosyayı ayıklayın 'OfflineUpdater.cmd' dosyasını çalıştırın. WINCEPHEUS Bölmesinin harfini (X olmalı) girin ve Enter'a basın.
+> Sürücülerin olduğu sıkıştırılmış dosyayı ayıklayın 'OfflineUpdater.cmd' dosyasını çalıştırın. **WINCEPHEUS** Bölmesinin harfini (X olmalı) girin ve Enter'a basın.
 
-### Windows EFI Önyükleyici dosyalarını oluşturun
+#### Windows EFI Önyükleyici dosyalarını oluşturun
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-### Harf atamasını kaldırın
-> Diskpart ile ESPCEPHEUS'un harfini kaldırın, yoksa bilgisayarı yeniden başlatana kadar dosya gezgininde boş sürücü olarak gözükecektir.
+#### Harf atamasını kaldırın
+> Diskpart ile **ESPCEPHEUS**'un harfini kaldırın, yoksa bilgisayarı yeniden başlatana kadar dosya gezgininde boş sürücü olarak gözükecektir.
 
-> ESPCEPHEUS'un numarasını bulmak için `list volume` kullanın, `select volume <numara>` ile seçin, son olarak `remove letter y` ile kaldırın
+> **ESPCEPHEUS**'un numarasını bulmak için `list volume` kullanın, `select volume <numara>` ile seçin, son olarak `remove letter y` ile kaldırın
 
 ### Reboot to Android
 > To set up dualboot
 
 ## [Son Adım: Çift Sistem Kurulumu](dualboot-tr.md)
+
+
+
+
+
+
+
+
+
+
+
+
