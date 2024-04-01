@@ -2,30 +2,26 @@
 
 # Running Windows on the Xiaomi Mi 9
 
-## Installation
-
 ### Partitioning your device
 
 ### Prerequisites
 - A brain (very important)
-- Latest version of MIUI installed
+
 - [Modded TWRP](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.4/recovery-cepheus.img)
+
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes:
-> [!Warning]\
-> If you delete any partitions via diskpart later on or now, Windows will send a UFS command that gets misinterpreted, which erases all of your UFS!
+> [!Warning]
 > All your data will be erased! Backup now if needed.
 > 
 > These commands have been tested.
 > 
->  Do not run the same command twice.
+> Do not run the same command twice unless specified.
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the Telegram group.
+> DO NOT REBOOT YOUR PHONE! If you think you made a mistake, ask for help in the Telegram group.
 >
 > Do not run all commands at once, execute them in order!
->
-> YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!
 >
 > SCRIPTS ONLY WORK ON THE 64GB AND 128GB VERSION
 
@@ -35,9 +31,8 @@
 fastboot flash path\to\recovery-cepheus.img reboot recovery
 ```
 ##### Run the partitioning script
-
 > If it asks you to run it once again, do so
-
+>
 > This is **optional** but you can **set custom sizes using this script**
 
 > To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
@@ -55,3 +50,23 @@ Just restart the phone, and see if Android still works. If it does not boot, reb
 
 
 ### [Next step: Installing Windows](/guide/English/2-install-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
