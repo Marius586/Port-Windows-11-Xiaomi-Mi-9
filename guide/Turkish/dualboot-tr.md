@@ -11,7 +11,7 @@
 
 - [UEFI imajı](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusDisableSecureBoot.img)
 
-- [WOA Yardımcı Uygulaması](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
+- [WOA Yardımcı Uygulaması](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
 - [StA Kurulumu](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/Dualboot/StA_Installer_cepheus.exe)
 
