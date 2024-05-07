@@ -9,7 +9,7 @@
 ### Gerekenler
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [UEFI imajı](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusDisableSecureBoot.img)
+- [UEFI imajı](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/1.2/MuCepheusSecureBoot.img)
 
 - [WOA Yardımcı Uygulaması](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
